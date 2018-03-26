@@ -1,0 +1,78 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*layout引入样式*/
+.layout .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.layout .trigger:hover {
+  color: #1890ff;
+}
+
+.layout .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+  color:#FFF;
+  text-align: center;
+  line-height: 30px;
+  overflow: hidden
+}
+/*404组件背景图定义*/
+.not_found_bg{
+  background-image: url("/img/404_1.jpg");
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  min-height: 450px;
+}
+/*顶部面包屑样式*/
+.breadcrumb{
+  display: inline
+}
+
+.lesson_of_day{
+  list-style: none;
+  margin:0;padding: 0
+}
+.lesson_of_day>li{
+
+}
+.lesson_of_day .room{
+  color: #0A0
+}
+.lesson_of_day .time{
+  color: #F9B
+}
